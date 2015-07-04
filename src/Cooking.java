@@ -1,12 +1,14 @@
-import recipe.OmeletRice;
+import recipe.Recipe;
+import recipe.RecipeList;
+import recipe.RecipeManager;
 
 public class Cooking {
     public static void main(String[] args) {
-        echoRecipeName();
+        displayRecipeNames();
     }
 
-    private static void echoRecipeName() {
-        OmeletRice omeletRice = new OmeletRice();
-        System.out.println(omeletRice.getRecipeName());
+    private static void displayRecipeNames() {
+        RecipeManager recipeManager = new RecipeManager();
+        recipeManager.showRecipeNames();
     }
 }
