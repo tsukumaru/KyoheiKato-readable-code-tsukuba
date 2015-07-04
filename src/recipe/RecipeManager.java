@@ -12,13 +12,18 @@ public class RecipeManager {
         recipeList.readRecipeData();
     }
 
-    public void showRecipeNames() {
+    public void showRecipeName(int id){
+        Recipe recipe = recipeList.getRecipeList().get(id);
+        System.out.println(recipe.getRecipeName());
+    }
+
+    public void showAllRecipeNames() {
         for (Recipe recipe : recipeList.getRecipeList()) {
             System.out.println(recipe.getRecipeName());
         }
     }
 
-    public void showRecipeNamesWithId(){
+    public void showAllRecipeNamesWithId(){
         int id = 0;
         for (Recipe recipe : recipeList.getRecipeList()) {
             System.out.println(++id + " : " + recipe.getRecipeName());
