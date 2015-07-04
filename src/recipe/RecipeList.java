@@ -10,6 +10,7 @@ public class RecipeList {
     private List<Recipe> recipeList;
 
     public RecipeList() {
+
         recipeList = new ArrayList<Recipe>();
     }
 

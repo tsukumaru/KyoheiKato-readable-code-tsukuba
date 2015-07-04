@@ -9,6 +9,7 @@ public class Cooking {
 
     private static void displayRecipeNames() {
         RecipeManager recipeManager = new RecipeManager();
+
         recipeManager.showRecipeNamesWithId();
     }
 }
