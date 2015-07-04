@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/__KyoheiKato-readable-code-tsukuba.iml" filepath="$PROJECT_DIR$/__KyoheiKato-readable-code-tsukuba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KyoheiKato-readable-code-tsukuba.iml" filepath="$PROJECT_DIR$/KyoheiKato-readable-code-tsukuba.iml" />
     </modules>
   </component>
 </project>
